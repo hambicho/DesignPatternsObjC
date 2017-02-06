@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#import "Barcelona.h"
+#import "ManchesterUnited.h"
+#import "Jugador.h"
+
 @interface ViewController ()
 
 @end
@@ -26,4 +30,20 @@
 }
 
 
+- (IBAction)touchBarcelona:(id)sender {
+    
+    NSObject <IEquipo>* equipo = [[Barcelona alloc] init];
+    //Barcelona * equipo = [[Barcelona alloc] init];
+    Jugador * messi = [[Jugador alloc] initWithEquipo:equipo];
+    [messi mostrarEquipo];
+}
+
+- (IBAction)touchManchesterUnited:(id)sender {
+    
+    NSObject <IEquipo>* equipo = [[ManchesterUnited alloc] init];
+//    ManchesterUnited * equipo = [[ManchesterUnited alloc] init];
+    Jugador * messi = [[Jugador alloc] initWithEquipo:equipo];
+    [messi mostrarEquipo];
+    
+}
 @end

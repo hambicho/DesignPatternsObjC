@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)touchBarcelona:(id)sender;
+- (IBAction)touchManchesterUnited:(id)sender;
 
 @end
 

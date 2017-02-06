@@ -13,6 +13,9 @@
 		82F752AB1E47EB040071B7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F752A91E47EB040071B7E8 /* Main.storyboard */; };
 		82F752AD1E47EB040071B7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F752AC1E47EB040071B7E8 /* Assets.xcassets */; };
 		82F752B01E47EB040071B7E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F752AE1E47EB040071B7E8 /* LaunchScreen.storyboard */; };
+		82F752BC1E480AE50071B7E8 /* Jugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F752BB1E480AE50071B7E8 /* Jugador.m */; };
+		82F752BF1E480AF20071B7E8 /* Barcelona.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F752BE1E480AF20071B7E8 /* Barcelona.m */; };
+		82F752C21E480B0B0071B7E8 /* ManchesterUnited.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F752C11E480B0B0071B7E8 /* ManchesterUnited.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		82F752AC1E47EB040071B7E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F752AF1E47EB040071B7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F752B11E47EB040071B7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F752B91E4809780071B7E8 /* IEquipo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IEquipo.h; sourceTree = "<group>"; };
+		82F752BA1E480AE50071B7E8 /* Jugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugador.h; sourceTree = "<group>"; };
+		82F752BB1E480AE50071B7E8 /* Jugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugador.m; sourceTree = "<group>"; };
+		82F752BD1E480AF20071B7E8 /* Barcelona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcelona.h; sourceTree = "<group>"; };
+		82F752BE1E480AF20071B7E8 /* Barcelona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcelona.m; sourceTree = "<group>"; };
+		82F752C01E480B0B0071B7E8 /* ManchesterUnited.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManchesterUnited.h; sourceTree = "<group>"; };
+		82F752C11E480B0B0071B7E8 /* ManchesterUnited.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManchesterUnited.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		82F752B71E47EB470071B7E8 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				82F752B91E4809780071B7E8 /* IEquipo.h */,
 			);
 			name = Interfaces;
 			sourceTree = "<group>";
@@ -91,6 +102,12 @@
 		82F752B81E47EB4F0071B7E8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				82F752BA1E480AE50071B7E8 /* Jugador.h */,
+				82F752BB1E480AE50071B7E8 /* Jugador.m */,
+				82F752BD1E480AF20071B7E8 /* Barcelona.h */,
+				82F752BE1E480AF20071B7E8 /* Barcelona.m */,
+				82F752C01E480B0B0071B7E8 /* ManchesterUnited.h */,
+				82F752C11E480B0B0071B7E8 /* ManchesterUnited.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -166,7 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F752C21E480B0B0071B7E8 /* ManchesterUnited.m in Sources */,
+				82F752BC1E480AE50071B7E8 /* Jugador.m in Sources */,
 				82F752A81E47EB040071B7E8 /* ViewController.m in Sources */,
+				82F752BF1E480AF20071B7E8 /* Barcelona.m in Sources */,
 				82F752A51E47EB040071B7E8 /* AppDelegate.m in Sources */,
 				82F752A21E47EB040071B7E8 /* main.m in Sources */,
 			);
